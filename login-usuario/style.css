@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    background-color: #FFF7ED;
+}
+
+#cadastrar{
+    background-color: #fff;
+    width: 70vw;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
+    margin: auto;
+    overflow: hidden;
+}
+#imagem{
+    background: url(../cadastro/imgs/Imagem-Pets-Login.png) center center;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+    
+    
+}
+
+#Login{
+    display: block;
+    padding: 15px;
+}
+
+#inicio {
+    text-align: center;
+}
+h1{
+    color: #f97316;
+}
