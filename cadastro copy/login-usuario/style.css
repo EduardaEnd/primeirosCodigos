@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+
+body, html{
+    background-color: #FFF7ED;
+    width: 80vw;
+    height: 70vh;
+}
+
+#login{
+    background-color: white;
+    max-width: 900px;
+    height: 647px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.11);
+}
+
+#img{
+    display: block;
+    background-image: url(../imgs/Imagem-Pets-Login.png);
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#formulario{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
